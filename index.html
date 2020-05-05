@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Compressed CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
 
     <!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css" integrity="sha256-BiKflOunI0SIxlTOOUCQ0HgwXrRrRwBkIYppEllPIok=" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -31,7 +31,7 @@
                     </ul>
                 </div>
                 <div class="cell medium-6 align-right flex-container">
-                    <a href="#">
+                    <a href="#" class="header-top__text-link">
                         <span>Campus Virtual</span>
                         <i class="fas fa-arrow-right"></i>
                     </a>
@@ -75,7 +75,7 @@
                     <h2 class="section-about__title">Nosotros</h2>
                     <h3 class="section-about__subtitle">¿Quiénes somos?</h3>
                     <p class="section-about__paragraph">En 8 años hemos logrado ser la empresa solar más importante de México y estar presentes en más de 30 ciudades de la República Mexicana. En 2018 empezamos nuestra aventura por Latinoamérica iniciando operaciones en Chile. ¡Enlight somos una empresa comprometida con las energias renovables!</p>
-                    <a class="button margin-button-0" href="#">
+                    <a class="button" href="#">
                         <span class="button__text">Contratar servicio</span>
                         <i class="button__icon fas fa-arrow-right"></i>
                     </a>
@@ -90,39 +90,170 @@
                 <h2 class="section-services__title margin-0">Servicios</h2>
                 <h3 class="section-services__subtitle margin-0">Explora nuestros servicios</h3>
             </div>
-            <div class="grid-x grid-margin-y grid-margin-x align-center">
+            <div class="grid-x grid-margin-x grid-margin-y align-center">
                 <div class="cell medium-4">
                     <article class="section-services__card">
                         <a href="#">
                             <figure>
                                 <img  class="section-services__card-imagen" src="img/trabajo-altura.png" alt="">
                             </figure>
-                            <h2 class="section-services__card-title margin-0" >Responsabilidad Social</h2>
-                            <p class="section-services__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
+                            <div class="section-services__card-conainer">
+                                <h2 class="section-services__card-title margin-0" >Responsabilidad Social</h2>
+                                <p class="section-services__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
+                            </div>
                         </a>
                     </article>
                 </div>
                 <div class="cell medium-4">
-                    <div class="section-services__card">
+                    <article class="section-services__card">
                         <a href="#">
-                            <img  class="section-services__card-imagen" src="img/trabajo-altura.png" alt="">
-                            <h2 class="section-services__card-title" >Responsabilidad Social</h2>
+                            <figure>
+                                <img  class="section-services__card-imagen" src="img/trabajo-altura.png" alt="">
+                            </figure>
+                            <div class="section-services__card-conainer">
+                                <h2 class="section-services__card-title margin-0" >Responsabilidad Social</h2>
+                                <p class="section-services__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
+                            </div>
                         </a>
-                        <p class="section-services__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
-                    </div>
+                    </article>
                 </div>
                 <div class="cell medium-4">
-                    <div class="section-services__card">
+                    <article class="section-services__card">
                         <a href="#">
-                            <img  class="section-services__card-imagen" src="img/trabajo-altura.png" alt="">
-                            <h2 class="section-services__card-title" >Responsabilidad Social</h2>
+                            <figure>
+                                <img  class="section-services__card-imagen" src="img/trabajo-altura.png" alt="">
+                            </figure>
+                            <div class="section-services__card-conainer">
+                                <h2 class="section-services__card-title margin-0" >Responsabilidad Social</h2>
+                                <p class="section-services__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
+                            </div>
                         </a>
-                        <p class="section-services__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
-                    </div>
+                    </article>
                 </div>
+                <a class="button section-services__button" href="#">
+                    <span class="button__text">Contratar servicio</span>
+                    <i class="button__icon fas fa-arrow-right"></i>
+                </a>
             </div>
         </div>
     </section>
+
+    <section class="section-blog">
+        <div class="grid-container section-blog__container">
+            <div class="section-blog__main-tile">
+                <h2 class="section-blog__title margin-0">Blog</h2>
+                <h3 class="section-blog__subtitle margin-0">Últimas actividades</h3>
+            </div>
+            <div class="grid-x grid-margin-x grid-margin-y align-center">
+                <div class="cell medium-4">
+                    <article class="section-blog__card">
+                        <a href="#">
+                            <figure>
+                                <img  class="section-blog__card-imagen" src="img/trabajo-altura.png" alt="">
+                            </figure>
+                            <div class="section-blog__blog-car-container">
+                                <h2 class="section-blog__card-title margin-0" >Seguridad alimentaria</h2>
+                                <time class="section-blog__card-time" datetime="2019-02-24">24 de Febrero, 2019</time>
+                                <p class="section-blog__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="cell medium-4">
+                    <article class="section-blog__card">
+                        <a href="#">
+                            <figure>
+                                <img  class="section-blog__card-imagen" src="img/trabajo-altura.png" alt="">
+                            </figure>
+                            <div class="section-blog__blog-car-container">
+                                <h2 class="section-blog__card-title margin-0" >Seguridad alimentaria</h2>
+                                <time class="section-blog__card-time" datetime="2019-02-24">24 de Febrero, 2019</time>
+                                <p class="section-blog__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="cell medium-4">
+                    <article class="section-blog__card">
+                        <a href="#">
+                            <figure>
+                                <img  class="section-blog__card-imagen" src="img/trabajo-altura.png" alt="">
+                            </figure>
+                            <div class="section-blog__blog-car-container">
+                                <h2 class="section-blog__card-title margin-0" >Seguridad alimentaria</h2>
+                                <time class="section-blog__card-time" datetime="2019-02-24">24 de Febrero, 2019</time>
+                                <p class="section-blog__card-paragraph">Es un hecho establecido hace demasiado tiempo que un lector se distraerá</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <a class="button section-blog__button" href="#">
+                    <span class="button__text">Contratar servicio</span>
+                    <i class="button__icon fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="grid-container footer__container">
+            <div class="grid-x grid-margin-y grid-margin-x">
+                <div class="cell medium-4">
+                    <p class="footer__title">Nosotros</p>
+                    <a href="#">
+                        <figure class="footer__figure">
+                            <img src="img/logo.jpg" class="footer__image" alt="">
+                        </figure>
+                    </a>
+                    <p class="footer__paragraph">En 8 años hemos logrado ser la empresa solar más importante de México y estar presentes en más de 30 ciudades de la República Mexicana.</p>
+                </div>
+                <div class="cell medium-2">
+                    <p class="footer__title">Secciones</p>
+                    <ul class="menu vertical">
+                        <li><a href="#" class="footer__link">Inicio</a></li>
+                        <li><a href="#" class="footer__link">Nosotros</a></li>
+                        <li><a href="#" class="footer__link">Servicios</a></li>
+                        <li><a href="#" class="footer__link">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="cell medium-3">
+                    <p class="footer__title">Contacto</p>
+                    <ul class="margin-0">
+                        <li class="footer__item">
+                            <i class="footer__icon fas fa-envelope"></i>
+                            <span class="footer__text margin-0">terecarvel@hotmail.com</span>
+                        </li>
+                        <li class="footer__item">
+                            <i class="footer__icon fas fa-map-marker-alt"></i>
+                            <span class="footer__text margin-0">Calle Las Magnolias 234 - Urb. California</span>
+                        </li>
+                        <li class="footer__item">
+                            <i class="footer__icon fas fa-phone-alt"></i>
+                            <span class="footer__text margin-0">947831509</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="grid-container">
+            <div class="grid-x align-middle">
+                <div class="cell medium-6">
+                    <ul class="footer-bottom__item">
+                        <li class="footer-bottom__list">
+                            <span class="footer-bottom__text">© 2020 Advisors Group</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cell medium-6 align-right flex-container">
+                    <p class="footer-bottom__text margin-0">Desarrollado por <a href="#" class="footer-bottom__text-link">Pandora Marketing
+                    </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
