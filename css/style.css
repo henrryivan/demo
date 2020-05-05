@@ -24,10 +24,9 @@ li {
 .header-top__item {
   margin: 15px 0 14px 0; }
 
-.header__nav {
+.header-nav {
   background: #26247B;
-  box-shadow: 0px 10px 20px rgba(207, 207, 207, 0.25);
-  height: 87px; }
+  box-shadow: 0px 10px 20px rgba(207, 207, 207, 0.25); }
 
 .header-nav__nav {
   font-family: Raleway;
@@ -39,15 +38,14 @@ li {
   color: #6C6AC7; }
 
 .section-about {
-  background: linear-gradient(249.42deg, #26247B 26.98%, #00A67E 74.95%);
-  height: 489px;
-  margin: 15px 0 0 0; }
+  background: linear-gradient(249.42deg, #26247B 26.98%, #00A67E 74.95%); }
 
-.section-about__figure {
-  margin: 75px 0; }
+.section-about__container {
+  padding: 5rem 0 5rem 0; }
 
 .section-about__imagen {
-  width: 100%; }
+  width: 100%;
+  padding: 17px 0 16px 0; }
 
 .section-about__title {
   font-family: Source Sans Pro;
@@ -55,8 +53,7 @@ li {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 23px;
-  margin: 110px 0 7px 0; }
+  line-height: 23px; }
 
 .section-about__subtitle {
   font-family: Source Sans Pro;
@@ -83,12 +80,56 @@ li {
   border-radius: 5px; }
   .button:hover {
     background: #00A67E; }
+  .button__text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF; }
 
-.button__text {
+.section-services__card {
+  box-shadow: 10px 10px 50px rgba(207, 207, 207, 0.3);
+  border-radius: 0px 0px 5px 5px; }
+
+.section-services__title {
+  font-family: Source Sans Pro;
+  color: #00A67E;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 0 0 .5rem 0; }
+
+.section-services__subtitle {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  color: #FFFFFF; }
+  font-size: 25px;
+  line-height: 31px;
+  color: #FFFFFF;
+  color: #2E2E2E;
+  padding: 0 0 3rem 0; }
+
+.section-services__container {
+  padding: 2.5rem 0; }
+
+.section-services__card-title {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  padding: 17px 0 14px 0;
+  color: #2E2E2E; }
+
+.section-services__card-paragraph {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5A5A5A;
+  margin: 0;
+  padding-bottom: 30px; }

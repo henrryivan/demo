@@ -1,0 +1,19 @@
+@mixin button{
+    width: 234px;
+    height: 57px;
+    padding: 18px 0 16px 0;
+    background: #00A67E;
+    border-radius: 5px;
+    &:hover{
+        background: #00A67E;
+    }
+    &__text{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
