@@ -1,0 +1,49 @@
+.section-blog{
+    padding: 2.5rem 0 2.5rem 0;
+    &__title{
+        @include title;
+        padding: 0 0 .5rem 0;
+    }
+    &__subtitle{
+        @include subtitle;
+        padding-bottom: 3rem;
+    }
+    &__card{
+        background: #FFFFFF;
+        box-shadow: 10px 10px 50px rgba(207, 207, 207, 0.3);
+        border-radius: 0px 0px 5px 5px;
+    }
+    &__card-link{
+        display: inline-block;
+    }
+    &__car-container{
+        padding: 1.5rem 1.5rem;
+    }
+    &__card-title{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 26px;
+        color: #2E2E2E;
+        padding-bottom: 14px;
+    }
+    &__card-time{
+        @include paragraph;
+        color: #5A5A5A;
+        font-weight: 600;
+    }
+    &__card-paragraph{
+        @include paragraph;
+        color: #5A5A5A;
+        margin: 0;
+    }
+    &__button{
+        @include button;
+        margin-top: 2.5em;
+        margin-bottom: 2.5rem;
+    }
+    &__button-icon{
+        padding-left: 0.5rem;
+    }
+}

@@ -1,0 +1,36 @@
+.section-about{
+    background: linear-gradient(249.42deg, #26247B 26.98%, #00A67E 74.95%);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    &__figure{
+        height: 100%;
+        width: 100%;
+    }
+    &__image{
+        height: 100%;
+        object-fit: cover;
+    }
+    &__content{
+        padding: 1rem 0;
+    }
+    &__title{
+        @include title;
+    }
+    &__subtitle{
+        @include subtitle;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    &__paragraph{
+        @include paragraph;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 1.5rem 0;
+    }
+    &__button{
+        @include button;
+    }
+    &__button-icon{
+        padding-left: 0.5rem;
+    }
+}

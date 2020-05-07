@@ -1,0 +1,75 @@
+.footer-top{
+    background: #26247B;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    &__title{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    &__figure{
+        display: inline-block;
+    }
+    &__paragraph{
+        @include paragraph;
+        color: #FFFFFF;
+        padding: 1rem 0;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    &__contact-item{
+        background: #18166C;
+        border-radius: 5px;
+        max-width: 380px;
+        margin-bottom: 23px;
+        padding: 15px 10px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__contact-icon{
+        color: #FFFFFF;
+        padding-right: 10px;
+        font-size: 18px;
+    }
+    &__contact-text{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
+
+.footer-bottom{
+    background: #18166C;
+    &__item{
+        margin: 20px 0;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ffffff;
+        &-link{
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        &-link:hover{
+            color: #FFFFFF;
+        }
+    }
+}
